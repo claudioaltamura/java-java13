@@ -8,7 +8,8 @@ class TextBlockExampleTest {
 
   @Test
   void textBlockExample() {
-    assertEquals("Name: Peter\nPhone: 123456\nage: 5\n", TextBlockExample.ELEMENT);
+    TextBlockExample textBlockExample = new TextBlockExample();
+    assertEquals("Name: Peter\nPhone: 123456\nage: 5\n", textBlockExample.getElement());
   }
 
 }
